@@ -1,0 +1,22 @@
+{
+    "name": "rumd3x/cloudcone-sdk",
+    "description": "Unofficial Cloudcone PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rumd3x",
+            "email": "edmurcardoso@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rumd3x\\CloudCone\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "tightenco/collect": "^5.8"
+    }
+}
