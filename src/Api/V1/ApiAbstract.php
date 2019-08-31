@@ -51,6 +51,6 @@ abstract class ApiAbstract
             'form_params' => $data,
         ]);
 
-        return json_decode($response->getBody()->getContents());
+        return json_decode($response->getBody()->getContents(), true);
     }
 }
